@@ -1,0 +1,47 @@
+.producto-desc-container{
+    width:100%;
+    padding:1cm;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(216, 185, 219, 0.452);
+    border:2px solid white;
+}
+.producto-desc-container>img{
+    width: 4cm;
+    height:8cm;
+
+}
+.producto-desc-container>div{
+    margin-left:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.producto-desc-container>div>form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.producto-desc-container>div>form>button{
+    padding:10px 20px;
+    background:green;
+    border-radius:15px;
+    color:white;
+    transition:all 1s;
+}
+.producto-desc-container>div>form>button:hover{   
+    cursor:pointer;
+    background:rgb(21, 211, 21);
+}
+.producto-desc-container>div>form>button>i{
+    margin-right:5px;    
+}
+
+@media all and (max-width:400px){
+    .producto-desc-container{
+        flex-direction:column;
+    }
+}

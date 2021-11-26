@@ -1,0 +1,104 @@
+
+.carrito-productoss-container{
+    width:70%;
+    margin:auto;
+    margin-top:20px;
+    padding:0.5cm;
+    display: flex;
+    justify-content: left;
+    align-items:left;
+    background: rgba(255, 255, 255, 0.644);
+    border:1px solid white;
+    border-radius:15px;
+}
+.carrito-productoss-container>img{
+    width: 4cm;
+    height: 8cm;
+    border-radius:15px;
+}
+.carrito-productoss-container>ul{
+    margin-left:30px;
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:left;
+    color:black;
+}
+.carrito-productoss-container>ul>#quitar{
+    margin-top:5px;
+    text-align: center;
+    padding:5px 5px;
+    border-radius:15px;
+    border:2px solid black;
+    background:rgb(163, 16, 16);
+    text-decoration: none;
+    color: white;;
+}
+
+.carrito-productoss-container>ul>#quitar:hover{
+    background:rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+
+.btn-comprar-container{
+    width: 100%;
+    margin-top:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-comprar-container>form{
+    padding:10px;
+}
+.btn-comprar-container>form>li:nth-child(1){
+    display:grid;
+}
+.btn-comprar-container>form>li:nth-child(2){
+    display:grid;
+}
+.btn-comprar-container>form>button{
+    margin-top:5px;
+    padding:10px 20px;
+    border: 2px solid white;
+    border-radius:15px;
+    color:white;
+    background:green;
+    font-size:30px;
+    text-decoration: none;
+}
+.btn-comprar-container>form>button:hover{
+    background:rgb(34, 160, 34);
+    cursor: pointer;
+}
+.btn-comprar-container>form>button>i{
+    margin-right:5px;
+    color:white;
+}
+#btn-pagado-debito{
+    text-decoration:none;
+    text-align:center;
+    background:white;
+    padding:10px;
+    color:black;
+    font-weight:bold;
+    border-radius:15px;
+    transition:all 1s;
+}
+
+#btn-pagado-debito:hover{
+    background:rgb(0, 255, 0);
+}
+
+@media all and (max-width:500px){
+    .carrito-productoss-container{
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+    }
+    .carrito-productoss-container>ul{
+        margin-left:0px;
+    }
+}
