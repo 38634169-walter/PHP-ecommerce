@@ -1,4 +1,4 @@
-# PHP-ecommerce-heco-hace-un-anio-no-separado-en-capaz
+# PHP ecommerce desarrollado hace un año atras
 Proyecto creado hace un año atras, lo subo para su demostracion con la practicidad del lenguaje, no esta separado en capaz debido a que despues de
 completarlo pase a hacerlo en LARAVEL lo cual fue mas beneficioso de elaborar en una estructura MVC, al pasarlo a LARAVEL mejore la interfaz, 
 implemente mejores practicas con JQuery, utilice Ajax en diferentes ocaciones.
